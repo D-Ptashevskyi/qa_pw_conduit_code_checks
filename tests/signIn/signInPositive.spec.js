@@ -6,7 +6,6 @@ test.describe("Sign in positive tests", () => {
   let signInPage;
   let homePage;
   let user;
-  let test;
 
   test.beforeEach(async ({ page }) => {
     signInPage = new SignInPage(page);
